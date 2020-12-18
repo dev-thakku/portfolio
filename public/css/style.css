@@ -1,0 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.login-wraper{
+  height: 100vh;
+  padding: 3rem;
+}
