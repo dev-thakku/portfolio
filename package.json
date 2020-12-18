@@ -4,7 +4,8 @@
   "description": "Here is my portfolio with a URL shortner Inbuilt.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "keywords": [
     "portfolio"
@@ -16,9 +17,11 @@
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
     "mongoose": "^5.10.15",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
